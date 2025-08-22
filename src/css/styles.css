@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+/* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
 
@@ -214,10 +215,6 @@ body {
 }
 
 .load-more {
-  display: block;
-  margin: 32px auto;
-  padding: 8px 16px;
-  height: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -225,13 +222,10 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4e75ff;
-  border: none;
   border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 250ms ease-in-out;
-}
-
-.load-more:hover,
-.load-more:focus {
-  background-color: #6c8cff;
+  border: none;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  margin: 40px auto;
 }
